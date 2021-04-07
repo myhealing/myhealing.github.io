@@ -1,0 +1,754 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: "latobold";
+    src:url(../fonts/Lato-Regular.ttf);
+    
+}
+
+@font-face {
+    font-family: "latolight";
+    src:url(../fonts/Lato-Light.ttf);
+    
+}
+
+@font-face {
+    font-family: "codebold";
+    src:url(../fonts/CodeBold.otf);
+}
+	
+	
+.banner1
+{
+	height: 100vh;
+	background-image: url(../img/nonsense3.jpg);
+	background-size: cover;
+	color: #55240C;
+	background-attachment: fixed;
+	padding: 40vh;
+	background-position: center;
+	font-size: 30px;
+}
+
+.social i
+{
+	color: #55240C;
+}
+.bgmenu
+{	width: 100%;
+	height: 10%;
+	
+}
+	
+.dropdown
+{
+	color: #55240C !important;
+	font-family:"latobold"!important;
+	font-size: 16px !important;
+	line-spacing: .2em;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+
+}
+
+.dropdown:hover
+{
+	color:#8E431F !important; 
+}
+
+
+.dropdown>.dropdown-toggle:active {
+     pointer-events:visible;
+	}
+
+h3
+{
+ 	Color: #55240C;
+	font-family: "lato";
+	font-size: 12px;
+	
+}
+
+
+h3:hover
+{
+	border-bottom: medium;
+	border-bottom-style: solid;
+	border-color:  #636363;	
+}
+
+
+
+.textboard h5
+{	padding-bottom: 10px;
+	padding-top: 50px;
+	color: #636363;	
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 14px;
+    letter-spacing: .2em;
+}
+
+h5
+{	color: #55240C;
+	font-family: "lato"
+	
+}
+
+
+.imgboard
+{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+/* filter function - Services*/
+
+.p2
+{
+	border-radius: 15px;
+}
+
+
+.p1:hover,.p2:hover {
+	opacity: .3;
+  	cursor: pointer;
+	}
+
+
+#typicalservice p {
+	color: #55240C;
+	font-size: 12px;
+	font-weight: 200;
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+
+.single-content{
+	
+	width: 300px;
+	margin-left: 20px;
+}
+
+.single-content img {
+	width: 100%;
+	height: auto;
+	margin: 10px;
+	
+}
+
+.filters {
+	width: 100%;
+	text-align: center;
+}
+
+.filters ul {
+	list-style: none;
+	padding: 20px 0;
+	
+	
+}
+
+.filters ul li {
+	display: inline;
+	padding: 10px 25px;
+	font-size: 14px;
+	color: #636363;
+	font-weight: 400;
+	cursor: pointer;
+  	text-transform: uppercase;
+  	letter-spacing: .2em;
+}
+
+.filters ul li:hover {
+	color: #55240C;
+}
+
+.filters ul li.activefilter {
+	color: #55240C;
+	border: 1px solid #55240C;
+	border-radius: 15px;
+}
+
+/* Blogs*/
+
+.banner2
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/nonsense2.jpg);
+	background-size: cover;
+	background-attachment: fixed; 
+	background-position: center;
+	
+}
+
+#blogSlider {
+  position: relative;
+  }
+
+#blogSlider .MS-content {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+ }
+
+#blogSlider .MS-content .item {
+  display: inline-block;
+  height: 210px;
+  width: 25%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  padding: 0px 10px;
+
+ 
+}
+
+#blogSlider .MS-content .item p {
+  text-align:left;
+  line-height: 1.2;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 5px 5px 25px 10px;
+  color:#FFFFFF;
+  }
+#blogSlider .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 90px;
+  color: rgba(79,32,12,1);
+}
+
+#blogSlider .MS-controls button:hover {
+  cursor: pointer;
+}
+#blogSlider .MS-controls .MS-left {
+  left: 2px;
+}
+
+#blogSlider .MS-controls .MS-right {
+  right: 2px;
+}
+
+
+.item img{
+	width:100%;
+	height: 200px;
+	margin-bottom: 10px;
+
+	
+}
+
+.itemtitle
+{
+	width: 100%;
+	height: 215px;
+	background-color: rgba(79,32,12,0.5);
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+	
+}
+
+.itemtitle h5{
+	color: #FFFFFF;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.itemtitle p{
+	color: #FFFFFF;
+}
+
+.item:hover .itemtitle
+{
+	opacity: 1;
+	bottom: 0px;
+}
+
+
+.button
+{
+	border: 1px solid #FFFFFF;
+	border-radius: 10px !important;
+	font-size: 10px !important;
+	text-decoration: none;
+	color:#FFFFFF;
+	padding: 5px;
+}
+/* Dropdown menu*/
+
+
+.menudrop
+{	color: #55240C; 
+	visibility: hidden;}
+
+.dropdown:hover .menudrop
+{	visibility: visible;
+	background-color: #FFFFFF; }
+
+.dropdown:hover>.dropdown-menu {
+  	display:block;
+  	background-color:rgba(251,214,155,0.68);
+	padding: 0px 5px 10px 5px;
+ 	
+}
+
+ 	
+
+
+.dropdown>.dropdown-toggle:active {
+     pointer-events:visible;
+	}
+
+/*footer*/
+
+
+.contact-form button
+{
+	border-color: #55240C;
+	color: #55240C;
+	border-radius: 10px;
+	
+}
+
+.expanded-contact-form
+{	padding-top: 10px;}
+
+.contact-form button
+{	
+	border-color: #55240C;
+	border-radius: 10px;
+	border-style: solid;
+}
+
+.contact-form
+{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.contactbox 
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/nonsense3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+.map-container-4{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.map-container-4 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+/*Responsive*/
+
+@media (max-width: 1200px) {
+  #blogSlider .MS-content .item {
+    width: 25%;
+	}
+}
+	
+
+@media (max-width: 992px) {
+  	#blogSlider .MS-content .item {
+    width: 33.3333%;
+  }
+	#blogSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+	
+	 #blogSlider .MS-controls .MS-right {
+    right: -2px;
+  }
+	
+	#blogSlider .MS-content .item p {
+		font-size: 16px;
+		color: #FFFFFF;
+	}
+	
+
+	.item img{
+	width: 100%;
+	height: 200px;
+	}
+	
+}
+
+@media (max-width: 767px) {
+	
+  #blogSlider .MS-controls button {
+    display: block;
+	top: 45px;
+	}
+	#blogSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+	
+	#blogSlider .MS-controls .MS-right {
+	right: -2px;}
+
+  #blogSlider {
+    border-color: transparent;
+  }
+	
+	#blogSlider .MS-content .item {
+    width: 50%;
+	padding-top: 60px;
+  }
+	
+
+ .item img{
+	width: 100%;
+	height: 150px;
+	}
+ .itemtitle
+{
+	width: 100%;
+	height: 150px;
+	
+	}
+	
+  .itemtitle h5{
+	 font-size: 12px;
+	 padding-left: 20px;}
+	
+ .itemtitle p{
+	 font-size: 10px;
+	 padding-left: 10px}
+	
+ #blogSlider .MS-content .item p {
+	font-size: 10px;
+	color: #FFFFFF;
+	}
+	
+ #blogSlider .MS-content {
+    margin: 0;
+  }
+
+
+ .icon_contact p
+{line-height: 3.0em;
+padding-left: 25%;
+font-size: 10px}
+
+	
+}
+
+@media (max-width: 414px)
+{
+
+
+ 	#blogSlider .MS-controls button {
+    display: block;
+	top: 80px !important;
+	}
+	#blogSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+	
+	#blogSlider .MS-controls .MS-right {
+	right: -2px;}
+		
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-4-4 19:19:15
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-contract
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+
+.h3service{
+	-webkit-animation: tracking-in-contract 4s ease-in 2s both;
+	        animation: tracking-in-contract 4s ease-in 2s both;
+}
+
+.h3blog{
+	-webkit-animation: tracking-in-contract 4s ease-in 6s both;
+	        animation: tracking-in-contract 4s ease-in 6s both;
+}
+
+.h3contact{
+	-webkit-animation: tracking-in-contract 4s ease-in 10s both;
+	        animation: tracking-in-contract 4s ease-in 10s both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-4-4 19:47:58
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-bl
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-bl {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+}
+@keyframes rotate-bl {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+}
+
+.contact-box {
+	-webkit-animation: rotate-bl 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 8s both;
+	        animation: rotate-bl 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 8s both;
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-4-4 19:57:32
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation wobble-hor-bottom
+ * ----------------------------------------
+ */
+@-webkit-keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+            transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+            transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+            transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+            transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+            transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+.contact-button{
+	-webkit-animation: wobble-hor-bottom 1s both;
+	        animation: wobble-hor-bottom 1s both;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: #636363;;
+  color: #55240C;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #636363;
+	
+	
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-4-4 22:41:8
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation kenburns-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+.banner4
+{		
+	-webkit-animation: kenburns-top 5s ease-out both;
+	        animation: kenburns-top 5s ease-out both;
+}
+.textboard1
+{ 	background-color:rgba(251,214,155,0.40);
+	padding-top: 5px;
+}
+.headline01
+{
+	text-align: center;
+}
+
+.headline01 i
+{
+	text-align: center;
+}
+
+.header1
+{
+	font-size: 18px;
+	padding-top: 30px;
+	padding-left: 150px;
+	line-height: 50px;
+}
