@@ -740,8 +740,10 @@ font-size: 10px}
 
 {	background-image: url(../img/happy2.jpg);
 	background-size: cover;	
+	width: 100vh;
 	height: 100vh;
 	padding: 40vh;
+	
 	
 	
 }
